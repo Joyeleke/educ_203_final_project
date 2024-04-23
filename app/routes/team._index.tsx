@@ -20,13 +20,13 @@ export default function Team() {
         </h1>
       </header>
       <main className="font-mono px-6 py-12">
-        <section>
-          <article className="grid grid-cols-2 items-center gap-x-16 py-12">
-            <figure className="justify-self-end">
+        <section className="px-12 lg:pr-12">
+          <article className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16 py-12">
+            <figure className="lg:justify-self-end">
               <img
-                src="https://picsum.photos/200/200"
+                src="https://ezxeabxdawiisodycekr.supabase.co/storage/v1/object/public/CadeauImages/1970255489376790035.jpg"
                 alt=""
-                className="rounded-full"
+                className="rounded-full w-[20rem]"
               />
             </figure>
             <div>
@@ -34,12 +34,12 @@ export default function Team() {
               <p>Major: Information Systems</p>
             </div>
           </article>
-          <article className="grid grid-cols-2 items-center gap-x-16 py-12">
-            <figure className="justify-self-end">
+          <article className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16 py-12">
+            <figure className="lg:justify-self-end">
               <img
-                src="https://picsum.photos/200/200"
+                src="https://ezxeabxdawiisodycekr.supabase.co/storage/v1/object/public/CadeauImages/3339572213946857491.jpg"
                 alt=""
-                className="rounded-full"
+                className="rounded-full w-[20rem]"
               />
             </figure>
             <div>
@@ -47,12 +47,12 @@ export default function Team() {
               <p>Major: Nursing</p>
             </div>
           </article>
-          <article className="grid grid-cols-2 items-center gap-x-16 py-12">
-            <figure className="justify-self-end">
+          <article className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-16 py-12">
+            <figure className="lg:justify-self-end">
               <img
-                src="https://picsum.photos/200/200"
+                src="https://ezxeabxdawiisodycekr.supabase.co/storage/v1/object/public/CadeauImages/_U6A3237%20smaller%20copy.jpeg"
                 alt=""
-                className="rounded-full"
+                className="rounded-full w-[25rem]"
               />
             </figure>
             <div>

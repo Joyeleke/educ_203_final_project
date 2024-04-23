@@ -2,8 +2,8 @@ import { Link } from "@nextui-org/react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#E9E6E0] grid grid-cols-4 font-mono px-16 py-24 border-black border-t-2">
-      <article className="col-span-2">
+    <footer className="bg-[#E9E6E0] grid grid-cols-1 lg:grid-cols-4 font-mono px-16 py-24 border-black border-t-2 gap-y-6">
+      <article className="col-span-1 lg:col-span-2">
         <h3 className="text-2xl font-semibold mb-8">EDUC Final Project</h3>
         <p className="text-sm">1400 East Hanna Avenue</p>
         <p className="text-sm">Indianapolis, Indiana</p>

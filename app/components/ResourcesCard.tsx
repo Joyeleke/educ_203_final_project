@@ -12,7 +12,7 @@ export default function ResourcesCard({
 }) {
   return (
     <div>
-      <figure className="w-[24rem] h-[24rem]">
+      <figure className="w-[20rem] h-[20rem]">
         <img src={imageUrl} alt="" className="w-full h-full rounded-md" />
       </figure>
       <h3 className="font-bold text-xl mt-6">{title}</h3>

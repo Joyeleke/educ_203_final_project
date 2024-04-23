@@ -69,7 +69,11 @@ export default function NavBar({ textColor, fontWeight }: NavBarProps) {
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full py-4" href="#" size="lg">
+            <Link
+              className="w-full py-4"
+              href={`/${item.toLowerCase()}`}
+              size="lg"
+            >
               <p className="text-black">{item}</p>
             </Link>
           </NavbarMenuItem>
